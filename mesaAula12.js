@@ -28,6 +28,7 @@ function encontratGanhador(a, b) {
 console.log(encontratGanhador(alice, bob));
 
 // Bônus digitalHouse
+console.log('-----digitalHouse----');
 function digitalHouse(num1, num2) {
   for (let i = 1; i <= 100; i++) {
     if (i % num1 === 0 && i % num2 === 0) {
@@ -42,3 +43,15 @@ function digitalHouse(num1, num2) {
   }
 }
 digitalHouse(2, 3);
+
+//Reloaded
+console.log('-----SumArray----');
+let paraSomar = [1, 2, 3];
+function sumArray(array) {
+  let soma = 0;
+  for (let u = 0; u < array.length; u++) {
+    soma = soma + array[u];
+  }
+  return soma;
+}
+console.log(sumArray(paraSomar));

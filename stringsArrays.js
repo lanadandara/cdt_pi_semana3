@@ -34,9 +34,15 @@ console.log(inverter(j));
 
 //Somar Arrays
 console.log('-----Somar Arrays-----');
-function somarArray(arrayNumber) {
-  return;
+let paraSomar = [1, 2, 3];
+function sumArray(array) {
+  let soma = 0;
+  for (let u = 0; u < array.length; u++) {
+    soma = soma + array[u];
+  }
+  return soma;
 }
+console.log(sumArray(paraSomar));
 
 //Array join
 console.log('-----Simulação de Join-----');
